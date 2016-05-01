@@ -24,7 +24,7 @@ class Template {
 				if (file_exists($template)){
 					$layout = $CI->load->file($template, TRUE);
 				} else {
-					die('Template invï¿½lida.');
+					die('Template inválida.');
 				}
 				
 				$html	= str_replace("{CONTEUDO}", $output, $layout);

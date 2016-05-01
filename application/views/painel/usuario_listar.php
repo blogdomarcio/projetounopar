@@ -1,8 +1,8 @@
 <legend>
-Usu·rios
+Usu√°rios
 	<div class="pull-right">
- 		<a href="{URLLISTAR}" title="Listar usu·rios" class="btn"> <span class="glyphicon glyphicon-list-alt"></span> Listar</a> 
- 		<a href="{URLADICIONAR}" title="Adicionar usu·rios" class="btn"><span class="glyphicon glyphicon-plus"></span></em> Adicionar</a>
+ 		<a href="{URLLISTAR}" title="Listar usu√°rios" class="btn"> <span class="glyphicon glyphicon-list-alt"></span> Listar</a> 
+ 		<a href="{URLADICIONAR}" title="Adicionar usu√°rios" class="btn"><span class="glyphicon glyphicon-plus"></span></em> Adicionar</a>
 	</div>
 </legend>
 <table class="table table-bordered table-condensed">
@@ -20,7 +20,7 @@ Usu·rios
 	{/BLC_DADOS}
 	{BLC_SEMDADOS}
 	<tr>
-		<td colspan="3" class="alinha-centro">N„o h· dados</td>
+		<td colspan="3" class="alinha-centro">N√£o h√° dados</td>
 	</tr>
 	{/BLC_SEMDADOS}
 </table>

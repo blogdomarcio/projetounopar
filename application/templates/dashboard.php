@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -49,7 +50,7 @@
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="<?php echo site_url('painel/usuario')?>" title="Usuários">Usuários</a></li>
+            <li><a href="<?php echo site_url('painel/usuario')?>" title="UsuÃ¡rios">UsuÃ¡rios</a></li>
              
             
           </ul>
@@ -63,7 +64,7 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <ul class="nav nav-sidebar">
             
-            <li class="active"><a href="<?php echo site_url('painel/usuario')?>" title="Usuários"><span class="glyphicon glyphicon-user"> </span> Usuários</a></li>
+            <li class="active"><a href="<?php echo site_url('painel/usuario')?>" title="UsuÃ¡rios"><span class="glyphicon glyphicon-user"> </span> UsuÃ¡rios</a></li>
             <li class="divider linha"></li>
              <li><a href="<?php echo site_url('#')?>" title="Cidades"> <span class="glyphicon glyphicon-globe"></span> Cidades</a></li>
               <li><a href="<?php echo site_url('#')?>" title="Bairros"> <span class="glyphicon glyphicon-road"></span> Bairros</a></li>

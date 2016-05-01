@@ -1,7 +1,7 @@
 <legend>
-	ManutenÁ„o de Usu·rios - {ACAO}
+	Manuten√ß√£o de Usu√°rios - {ACAO}
 	<div class="pull-right">
-		<a href="{URLLISTAR}" title="Listar usu·rios" class="btn"><span class="glyphicon glyphicon-chevron-left"></span> Voltar</a>
+		<a href="{URLLISTAR}" title="Listar usu√°rios" class="btn"><span class="glyphicon glyphicon-chevron-left"></span> Voltar</a>
 	</div>
 </legend>
 

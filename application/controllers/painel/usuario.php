@@ -91,7 +91,7 @@ class Usuario extends CI_Controller {
 	
 	public function editar($id) {
 		$data						= array();
-		$data['ACAO']				= 'Edição';
+		$data['ACAO']				= 'EdiÃ§Ã£o';
 		
 		$res	= $this->UsuarioM->get(array("codusuario" => $id), TRUE);
 		
@@ -103,7 +103,7 @@ class Usuario extends CI_Controller {
 			$data['chk_ativousuario'] = ($res->ativadousuario=='S')?'checked="checked"':null;
 			
 		} else {
-			show_error('Não foram encontrados dados.', 500, 'Ops, erro encontrado.');
+			show_error('NÃ£o foram encontrados dados.', 500, 'Ops, erro encontrado.');
 		}
 		
 		$this->setURL($data);
@@ -124,16 +124,16 @@ class Usuario extends CI_Controller {
 		
 		if (!$nomeusuario) {
 			$erros		= TRUE;
-			$mensagem	.= "Informe nome do usuário\n";
+			$mensagem	.= "Informe nome do usuÃ¡rio\n";
 		}
 		if (!$emailusuario) {
 			$erros		= TRUE;
-			$mensagem	.= "Informe email do usuário\n";
+			$mensagem	.= "Informe email do usuÃ¡rio\n";
 		}
 		if (!$senhausuario) {
 			if (!$codusuario) {
 				$erros		= TRUE;
-				$mensagem	.= "Informe senha do usuário\n";
+				$mensagem	.= "Informe senha do usuÃ¡rio\n";
 			}
 		}
 		
@@ -158,7 +158,7 @@ class Usuario extends CI_Controller {
 				$this->session->set_flashdata('sucesso', 'Dados inseridos com sucesso.');
 				redirect('painel/usuario');
 			} else {
-				$this->session->set_flashdata('erro', 'Ocorreu um erro ao realizar a operação.');
+				$this->session->set_flashdata('erro', 'Ocorreu um erro ao realizar a operaÃ§Ã£o.');
 				
 				if ($codusuario) {
 					redirect('painel/usuario/editar/'.$codusuario);
@@ -186,9 +186,9 @@ class Usuario extends CI_Controller {
 		$res = $this->UsuarioM->delete($id);
 		
 		if ($res) {
-			$this->session->set_flashdata('sucesso', 'Usuário removido com sucesso.');
+			$this->session->set_flashdata('sucesso', 'UsuÃ¡rio removido com sucesso.');
 		} else {
-			$this->session->set_flashdata('erro', 'Usuário não pode ser removido.');
+			$this->session->set_flashdata('erro', 'UsuÃ¡rio nÃ£o pode ser removido.');
 		}
 		
 		redirect('painel/usuario');
