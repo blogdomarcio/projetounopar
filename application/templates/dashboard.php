@@ -66,7 +66,7 @@
             
             <li class="active"><a href="<?php echo site_url('painel/usuario')?>" title="Usuários"><span class="glyphicon glyphicon-user"> </span> Usuários</a></li>
             <li class="divider linha"></li>
-             <li><a href="<?php echo site_url('#')?>" title="Cidades"> <span class="glyphicon glyphicon-globe"></span> Cidades</a></li>
+             <li><a href="<?php echo site_url('painel/cidade')?>" title="Cidades"> <span class="glyphicon glyphicon-globe"></span> Cidades</a></li>
               <li><a href="<?php echo site_url('#')?>" title="Bairros"> <span class="glyphicon glyphicon-road"></span> Bairros</a></li>
                <li class="divider linha"></li>
                <li><a href="<?php echo site_url('#')?>" title="Cidades"><span class="glyphicon glyphicon-user"></span> Clientes</a></li>
