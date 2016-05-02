@@ -16,10 +16,11 @@
 		</label>
 		<div class="controls">
 			<input type="text" id="nome_cidade" name="nome_cidade"
-				value="{nome_cidade}" required="required">
+				value="{nome_cidade}" required="required" class="form-control">
 		</div>
 	</div>
-	 
+	 <br>
+	 <br>
 		 
 	<div class="well">
 		<button type="submit" class="btn">Salvar</button>

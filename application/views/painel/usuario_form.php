@@ -15,7 +15,7 @@
 			class="required">*</span>:
 		</label>
 		<div class="controls">
-			<input type="text" id="nomeusuario" name="nomeusuario"
+			<input type="text" id="nomeusuario" name="nomeusuario"  class="form-control"
 				value="{nomeusuario}" required="required">
 		</div>
 	</div>
@@ -24,8 +24,8 @@
 			class="required">*</span>:
 		</label>
 		<div class="controls">
-			<input type="email" id="emailusuario" name="emailusuario"
-				value="{emailusuario}" required="required">
+			<input type="email" id="emailusuario" name="emailusuario"  class="form-control"
+				value="{emailusuario}" required="required" placeholder="jane.doe@example.com">
 		</div>
 	</div>
 	<div class="control-group">
@@ -33,16 +33,22 @@
 			class="required">*</span>:
 		</label>
 		<div class="controls">
-			<input type="password" id="senhausuario" name="senhausuario" value="">
+			<input type="password" id="senhausuario" name="senhausuario" value="" class="form-control">
 		</div>
 	</div>
-	<div class="control-group">
+	<br>
+	<div class="checkbox">
 		<div class="controls">
 			<label class="checkbox"> <input type="checkbox" name="ativadousuario"
-				id="ativadousuario" value="S"{chk_ativousuario}> Ativo
+				id="ativadousuario" value="S"{chk_ativousuario}> Usuário Ativo
 			</label>
 		</div>
 	</div>
+	
+	<br>
+	<br>
+	
+	
 	<div class="well">
 		<button type="submit" class="btn">Salvar</button>
 	</div>
