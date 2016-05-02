@@ -145,7 +145,7 @@ class Usuario extends CI_Controller {
 			);
 			
 			if ($senhausuario) {
-				$itens['senhausuario']	= $this->encrypt->sha1($senhausuario);
+				$itens['senhausuario']	= $this->encryption->encrypt($senhausuario);
 			}
 			
 			if ($codusuario) {
