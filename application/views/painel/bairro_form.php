@@ -21,7 +21,7 @@ Manutenção de Bairros - {ACAO}
 	<br>
 	<br>
 
-	<div class="1">
+	<div class="control-group">
 		 
 	    <div class="form-control-lg">
 	    	<select name="cod_cidade" id="cod_cidade" class="required form-control form-control-lg">

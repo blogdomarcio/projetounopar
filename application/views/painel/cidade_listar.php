@@ -20,7 +20,7 @@ Cidades
 	{/BLC_DADOS}
 	{BLC_SEMDADOS}
 	<tr>
-		<td colspan="3" class="alinha-centro">Não há dados</td>
+		<td colspan="4" class="alinha-centro">Não há dados</td>
 	</tr>
 	{/BLC_SEMDADOS}
 </table>
