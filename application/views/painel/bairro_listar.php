@@ -7,10 +7,10 @@ Bairros
 </legend>
 <table class="table table-bordered table-condensed">
 	<tr>
-		<th class="coluna-acao text-center"></th>
-		<th>Nome</th>
+		<th style="width: 25px;" class="coluna-acao text-center"></th>
+		<th>Bairro</th>
 		<th>Cidade</th>
-		<th class="coluna-acao text-center"></th>
+		<th style="width: 25px;" class="coluna-acao text-center"></th>
 	</tr>
 	{BLC_DADOS}
 	<tr>
@@ -27,7 +27,7 @@ Bairros
 	{/BLC_SEMDADOS}
 </table>
 <div class="pagination pull-right">
-	<ul>
+	<ul class="pagination">
 		<li class="{HABANTERIOR}"><a href="{URLANTERIOR}">&laquo;</a>
 		{BLC_PAGINAS}
 		<li class="{LINK}"><a href="{URLLINK}">{INDICE}</a>

@@ -16,6 +16,8 @@
     <link href="<?php echo base_url('assets/css/bootstrap.min.css')?>" rel="stylesheet">
 
 	 <link href="<?php echo base_url('assets/css/dash_boot.css')?>" rel="stylesheet">
+         
+         <script src="<?php echo base_url('assets/js/util.js')?>"></script>
 	
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -68,9 +70,13 @@
             <li class="divider linha"></li>
              <li><a href="<?php echo site_url('painel/cidade')?>" title="Cidades"> <span class="glyphicon glyphicon-globe"></span> Cidades</a></li>
               <li><a href="<?php echo site_url('painel/bairro')?>" title="Bairros"> <span class="glyphicon glyphicon-road"></span> Bairros</a></li>
+               <li><a href="<?php echo site_url('painel/tipodp')?>" title="Tipo de Dependentes"><span class="glyphicon glyphicon-search"></span> Tipo de Dependentes</a></li>
+                <li><a href="<?php echo site_url('painel/plano')?>" title="Planos"><span class="glyphicon glyphicon-search"></span> Planos</a></li>
+               
                <li class="divider linha"></li>
                <li><a href="<?php echo site_url('painel/cliente')?>" title="Clientes"><span class="glyphicon glyphicon-user"></span> Clientes</a></li>
-               <li><a href="<?php echo site_url('#')?>" title="Cidades"><span class="glyphicon glyphicon-search"></span> Dependentes</a></li>
+               
+               <li><a href="<?php echo site_url('painel/dependente')?>" title="Dependentes"><span class="glyphicon glyphicon-search"></span> Dependentes</a></li>
              
           </ul>
            
@@ -87,14 +93,19 @@
       </div>
     </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>    
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/jquery.min.js"><\/script>')</script>
+    
+    <script src="<?php echo base_url('assets/js/jquery.min.js')?>"></script>
+    
+    <script src="<?php echo base_url('assets/js/util.js')?>"></script>
+    
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
-    <script src="../../assets/js/vendor/holder.min.js"></script>
+    <script src="../../assets/js/jquery.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>

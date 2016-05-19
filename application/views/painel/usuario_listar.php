@@ -7,9 +7,9 @@ Usuários
 </legend>
 <table class="table table-bordered table-condensed">
 	<tr>
-		<th class="coluna-acao text-center"></th>
+		<th style="width: 25px;" class="coluna-acao text-center"></th>
 		<th>Nome</th>
-		<th class="coluna-acao text-center"></th>
+		<th style="width: 25px;" class="coluna-acao text-center"></th>
 	</tr>
 	{BLC_DADOS}
 	<tr>

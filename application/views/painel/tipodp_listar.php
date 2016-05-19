@@ -1,20 +1,22 @@
 <legend>
-Cidades
+Tipo de Dependentes
 	<div class="pull-right">
- 		<a href="{URLLISTAR}" title="Listar Cidades" class="btn"> <span class="glyphicon glyphicon-list-alt"></span> Listar</a> 
- 		<a href="{URLADICIONAR}" title="Adicionar Cidades" class="btn"><span class="glyphicon glyphicon-plus"></span></em> Adicionar</a>
+ 		<a href="{URLLISTAR}" title="Listar TipoDPs" class="btn"> <span class="glyphicon glyphicon-list-alt"></span> Listar</a> 
+ 		<a href="{URLADICIONAR}" title="Adicionar TipoDPs" class="btn"><span class="glyphicon glyphicon-plus"></span></em> Adicionar</a>
 	</div>
 </legend>
 <table class="table table-bordered table-condensed">
 	<tr>
-		<th style="width: 25px;" class="coluna-acao text-center"></th>
-                <th >Cidade</th>
+		<th  style="width: 25px;"class="coluna-acao text-center"></th>
+		<th>Tipo de Dependentes</th>
+                
 		<th style="width: 25px;" class="coluna-acao text-center"></th>
 	</tr>
 	{BLC_DADOS}
 	<tr>
-		<td class="alinha-centro menos text-center"><a href="{URLEDITAR}" title="Editar"><span class="glyphicon glyphicon-pencil"></span></a></td>
-                <td>{NOME}</td>
+		<td class="alinha-centro text-center"><a href="{URLEDITAR}" title="Editar"><span class="glyphicon glyphicon-pencil"></span></a></td>
+		<td>{NOME}</td>
+                
 		<td class="alinha-centro text-center"><a href="{URLEXCLUIR}" title="Excluir" class="link-excluir"><span class="glyphicon glyphicon-trash"></span></a></td>
 	</tr>
 	{/BLC_DADOS}
